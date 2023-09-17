@@ -123,7 +123,7 @@ export function DetailsProject({ route }: any): JSX.Element {
                 <CardItem>
                   <View>
                     <Text><TextItems>Nome:</TextItems> {item.name}</Text>
-                    <Text><TextItems>CPF:</TextItems> {item.cpf}</Text>
+                    <Text><TextItems>Cpf:</TextItems> {item.cpf}</Text>
                     <Text><TextItems>Email:</TextItems> {item.email}</Text>
                     <Text><TextItems>Salário:</TextItems> {parseFloat(item.salary).toFixed(2)}</Text>
                     <Text><TextItems>Data de Criação:</TextItems> {format(new Date(item.created_at), 'dd/MM/yyyy HH:mm')}</Text>

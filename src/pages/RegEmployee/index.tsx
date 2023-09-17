@@ -116,7 +116,7 @@ export function RegEmployee() {
       {isLoading ? (
           <ActivityIndicator size="small" color="white" />
         ) : (
-          <TextButton style={{ color: 'white' }}>Cadastrar Projeto</TextButton>
+          <TextButton style={{ color: 'white' }}>Cadastrar</TextButton>
         )}
       </Button>
     </Container>

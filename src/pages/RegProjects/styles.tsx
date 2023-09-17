@@ -21,6 +21,7 @@ export const Label = styled.Text`
   font-size: 18px;
   color: black;
   font-weight: 800;
+  flex-direction: row;
 `;
 
 export const TextButton = styled.Text`

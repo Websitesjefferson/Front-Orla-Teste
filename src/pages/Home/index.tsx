@@ -51,7 +51,7 @@ const handleOpenModal = () => {
     <Container>
       <StatusBar
         backgroundColor="#ddd7d7"
-        barStyle="dark-content" // Define a cor do texto da StatusBar (pode ser 'light-content' ou 'dark-content')
+        barStyle="dark-content" 
       />
       {isLoading ? (
         <View style={{ marginTop: '0%' }}>

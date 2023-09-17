@@ -26,7 +26,7 @@ export function Routes() {
         <Stack.Screen
           name="Employee"
           component={RegEmployee}
-          options={{ title: 'Cadastrar Funcionario' }}
+          options={{ title: 'Cadastrar Funcionário' }}
         />
         <Stack.Screen
           name="regEmployee"
