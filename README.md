@@ -1,12 +1,11 @@
 # NOTE-APP - Aplicativo React Native
-<img src="https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/0f91ff7b-f842-4168-b0a8-0f6dad319120" width="200px"/>
-<img src="https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/4c3333fe-658b-475c-914a-135170a71555"  width="200px"/>
-<img src="https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/14fa0c81-3027-4457-99de-8910b0046982" width="200px"/>
-<img src="https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/2c38e3f7-0598-4621-a7b2-ce8ee1c3bb8f" width="200px"/>
-<img src="https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/d2e97fd9-daaf-4407-ae01-36636ef3210c" width="200px"/>
-<img src="https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/3f4e721f-5d98-44f5-9040-70d801a4f7ff" width="200px"/>
-<img src="https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/6b622bdb-0716-4015-9612-dbffb502cb84" width="200px"/>
-
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/c1ecbe0b-7bcf-4e53-89ca-6aa68ceb8c28' width="200px" />
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/87bed65c-6f36-4c98-bf9c-f9da9508e2df' width="200px"/>
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/847c6192-e1b3-43f7-a943-502359e1b91b' width="200px"/>
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/6e27727d-f5b1-42aa-a320-aec68411619f' width="200px"/>
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/8db4ef79-2869-43d4-bff0-408590f5ee42' width="200px"/>
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/d808448f-2ece-40fa-bfab-d99e95c8fa4e' width="200px"/>
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/0672ac41-76ad-457e-8990-159c7b01c8ed' width="200px"/>
 
 Você pode usar este guia para clonar o repositório, instalar as dependências e iniciar o projeto em seu ambiente de desenvolvimento.
 
