@@ -1,6 +1,7 @@
 # NOTE-APP - Aplicativo React Native
 <img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/e8c8a726-dc6e-4554-9c3f-78adf9cf4550 ' width="200px" />
 <img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/cf87fa09-cff4-48ee-a6df-9125832b2fcf ' width="200px" />
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/dfd6b6d9-eaf6-4849-bc07-37256d8a05db' width="200px" />
 <img src='(https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/7bd302d3-bb54-43c3-9635-7f2fa2ba8dbf' width="200px" />
 <img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/8edfe9b9-d7c2-46df-a394-fc9edd7761ea' width="200px" />
 <img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/14a8a8ad-caf7-4426-853a-d396c58719d9' width="200px" />
