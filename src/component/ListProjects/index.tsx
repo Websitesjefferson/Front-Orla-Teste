@@ -77,7 +77,7 @@ export function ListProjects({ projects, navigation, searchText, setSearchText }
           numColumns={2}
           ListEmptyComponent={() => (
             <View style={{ alignItems: 'center' }}>
-              <Text>Nenhum projeto cadastrado...</Text>
+              <Text style={{color: 'black'}}>Nenhum projeto cadastrado...</Text>
             </View>
           )}
         />

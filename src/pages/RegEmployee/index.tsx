@@ -4,7 +4,7 @@ import Toast from 'react-native-toast-message';
 import { CustomTextInput } from '../../component/TextInput';
 import { Container, Label, Button, TextButton } from '../RegProjects/styles';
 import { api } from '../../../api/Api';
-import { ActivityIndicator, ScrollView } from 'react-native';
+import { ActivityIndicator, ScrollView, View } from 'react-native';
 
 interface Project {
   id: string;
@@ -17,7 +17,7 @@ export function RegEmployee() {
   const [email, setEmail] = useState('');
   const [salary, setSalary] = useState('');
   const [selectedProject, setSelectedProject] = useState<string>('');
-  
+
   const [projectOptions, setProjectOptions] = useState<{ label: string; value: string }[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -47,8 +47,8 @@ export function RegEmployee() {
       })
       return
     }
-      const selectedProjectId = selectedProject;
-      const employeeData = {
+    const selectedProjectId = selectedProject;
+    const employeeData = {
       name,
       cpf,
       email,
@@ -57,31 +57,32 @@ export function RegEmployee() {
     };
 
     setIsLoading(true);
-    api.post('/employees', employeeData) 
+    api.post('/employees', employeeData)
       .then((response) => {
-          setName('')
-          setCpf('')
-          setEmail('')
-          setSalary('')
-          setIsLoading(false)
+        setName('')
+        setCpf('')
+        setEmail('')
+        setSalary('')
+        setIsLoading(false)
         Toast.show({
           type: 'success',
           text1: 'Funcionário cadastrado com sucesso.'
         })
 
-         
-        
+
+
       })
       .catch((error) => {
         console.error('Erro ao cadastrar funcionário:', error);
         setIsLoading(false);
       });
-      
+
   };
 
   return (
+    
     <Container>
-      
+<ScrollView>
       <Label>Nome</Label>
       <CustomTextInput value={name} onChangeText={setName} placeholder="Nome" />
 
@@ -100,25 +101,30 @@ export function RegEmployee() {
       />
 
       <Label>Projeto (Opcional)</Label>
-      <Picker
-        style={{ height: 70, marginBottom: 10 }}
-        selectedValue={selectedProject}
-        onValueChange={(value) => setSelectedProject(value)}
-      >
-        <Picker.Item label="Selecione um projeto..." value="" />
-        {projectOptions.map((project) => (
-          <Picker.Item key={project.value} label={project.label} value={project.value} />
-        ))}
-      </Picker>
-     
+      <View style={{ borderRadius: 10, overflow: 'hidden', height: 60, width: '100%', backgroundColor: '#ddd7d7' }}>
+        <Picker
+
+          selectedValue={selectedProject}
+          onValueChange={(value) => setSelectedProject(value)}
+        >
+          <Picker.Item label="Selecione um projeto..." value="" />
+          {projectOptions.map((project) => (
+            <Picker.Item key={project.value} label={project.label} value={project.value} />
+          ))}
+        </Picker>
+      </View>
+
+
+
 
       <Button onPress={handleSubmit}>
-      {isLoading ? (
+        {isLoading ? (
           <ActivityIndicator size="small" color="white" />
         ) : (
           <TextButton style={{ color: 'white' }}>Cadastrar</TextButton>
         )}
       </Button>
+      </ScrollView>
     </Container>
   );
 }

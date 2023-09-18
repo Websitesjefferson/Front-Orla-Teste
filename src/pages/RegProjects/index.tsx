@@ -52,7 +52,7 @@ export function RegProject() {
   return (
     <Container>
 
-      <Label>Nome do Projeto:</Label>
+      <Label>Nome do Projeto</Label>
       <CustomTextInput
         value={name}
         onChangeText={setName}

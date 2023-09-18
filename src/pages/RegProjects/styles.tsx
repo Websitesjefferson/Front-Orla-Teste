@@ -1,10 +1,12 @@
 import styled from 'styled-components/native';
 
+
 export const Container = styled.View`
   padding-left: 20px;
   padding-right: 20px;
   
 `;
+
 
 
 
@@ -15,6 +17,8 @@ export const Button = styled.TouchableOpacity`
   background-color: #1976D2; 
   border-radius: 10px;
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
 `;
 
 export const Label = styled.Text`
@@ -22,6 +26,7 @@ export const Label = styled.Text`
   color: black;
   font-weight: 800;
   flex-direction: row;
+  margin-top: 16px;
 `;
 
 export const TextButton = styled.Text`
