@@ -1,11 +1,11 @@
 # NOTE-APP - Aplicativo React Native
-<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/c1ecbe0b-7bcf-4e53-89ca-6aa68ceb8c28' width="200px" />
-<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/87bed65c-6f36-4c98-bf9c-f9da9508e2df' width="200px"/>
-<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/847c6192-e1b3-43f7-a943-502359e1b91b' width="200px"/>
-<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/6e27727d-f5b1-42aa-a320-aec68411619f' width="200px"/>
-<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/8db4ef79-2869-43d4-bff0-408590f5ee42' width="200px"/>
-<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/d808448f-2ece-40fa-bfab-d99e95c8fa4e' width="200px"/>
-<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/0672ac41-76ad-457e-8990-159c7b01c8ed' width="200px"/>
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/e8c8a726-dc6e-4554-9c3f-78adf9cf4550 ' width="200px" />
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/cf87fa09-cff4-48ee-a6df-9125832b2fcf ' width="200px" />
+<img src='(https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/7bd302d3-bb54-43c3-9635-7f2fa2ba8dbf' width="200px" />
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/8edfe9b9-d7c2-46df-a394-fc9edd7761ea' width="200px" />
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/14a8a8ad-caf7-4426-853a-d396c58719d9' width="200px" />
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/616e81c2-1cef-45f6-ac8f-8534b59f6550' width="200px" />
+<img src='https://github.com/Websitesjefferson/Front-Orla-Teste/assets/105390944/c076f5fa-0921-4f0c-a12b-0fc7764adcc5' width="200px" />
 
 Você pode usar este guia para clonar o repositório, instalar as dependências e iniciar o projeto em seu ambiente de desenvolvimento.
 
